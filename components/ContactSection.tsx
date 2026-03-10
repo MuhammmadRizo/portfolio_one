@@ -130,11 +130,7 @@ export default function ContactSection() {
             Yoki to'g'ridan-to'g'ri:{" "}
             <a
               href="mailto:adilovdev1@gmail.com"
-<<<<<<< HEAD
               style={{ color: "var(--blue-light)", textDecoration: "none" }}
-=======
-              style={{ color: 'var(--blue-light)', textDecoration: 'none' }}
->>>>>>> 145018d1504ac465b9531da4e6ff8513dc49d795
             >
               adilovdev1@gmail.com
             </a>

@@ -11,6 +11,7 @@ import Footer from '@/components/Footer'
 export default function Home() {
   return (
     <>
+    <link rel="icon" type="image/png" href="../public/favicon.png" sizes="96x96" />
       <Cursor />
       <Navbar />
       <main>

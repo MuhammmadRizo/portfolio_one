@@ -6,7 +6,6 @@ import Image from "next/image";
 const projects = [
   {
     id: 1,
-<<<<<<< HEAD
     title: "Couple 3 Films",
     subtitle: "NYC Ishlab Chiqarish Kompaniyasi",
     img: "https://t4.ftcdn.net/jpg/17/82/48/85/360_F_1782488506_T9hCdQo6IHJGQ6tJPme2B6pFwqBKmRzS.jpg",
@@ -84,77 +83,6 @@ const projects = [
     description:
       "Bu loyiha meni chindan ham kod yozishni o'rgatdi. Figma dizaynlarini ishlab chiqdim, barcha animatsiyalarni men qo'shdim.",
     role: "Dasturlash & Animatsiya",
-=======
-    title: 'Couple 3 Films',
-    subtitle: 'NYC Ishlab Chiqarish Kompaniyasi',
-    img: 'https://cdn.prod.website-files.com/629971ac1b962e42fe087309/699a92dfb8fce23b12fd3e0b_couple%203%20sharing%20screenshot%20-%20smaller.avif',
-    url: '#',
-    description: "Animatsiyali intro va scroll-based loyiha interaksiyalari bilan bu loyihada men yagona dizayner va dasturchi bo'ldim.",
-    role: 'Dizayn & Dasturlash',
-  },
-  {
-    id: 2,
-    title: 'Mountain Crust Pizza',
-    subtitle: 'To\'ylar uchun Pitsa Kompaniyasi',
-    img: 'https://cdn.prod.website-files.com/629971ac1b962e42fe087309/68e80aef0f523e2c87eed911_Screenshot%202025-10-09%20151634%20(1).png',
-    url: '#',
-    description: "Vintage uslub va zamonaviy qiyofani uyg'unlashtirgan bu loyiha men uchun juda qiziqarli bo'ldi.",
-    role: 'Dizayn & Dasturlash',
-  },
-  {
-    id: 3,
-    title: 'Juniper VC',
-    subtitle: 'Bioindustrial Venchur Kapital',
-    img: 'https://cdn.prod.website-files.com/629971ac1b962e42fe087309/68e80a535f71bd6bf2718f18_Screenshot%202025-10-09%20151531%20(1).png',
-    url: '#',
-    description: 'Bu zamonaviy VC kompaniyasi uchun chiroyli va interaktiv saytni ishlab chiqdim va animatsiyalashtirdim.',
-    role: 'Dasturlash & Animatsiya',
-  },
-  {
-    id: 4,
-    title: 'Princeton LGBTQIA+',
-    subtitle: 'Tarixiy Ko\'rgazma Sayti',
-    img: 'https://cdn.prod.website-files.com/629971ac1b962e42fe087309/678f4166d038c96aaa0da619_Screenshot%202025-01-21%20014009.avif',
-    url: '#',
-    description: "Yuzlab intervyu va og'zaki tarixlarni o'z ichiga olgan onlayn ko'rgazma. Bunday loyihalar veb-saytlarning qudratiga ishontiradigan.",
-    role: 'Dizayn & Dasturlash',
-  },
-  {
-    id: 5,
-    title: 'Biocreative Index',
-    subtitle: 'Ijodkorlar × Biologiya',
-    img: 'https://cdn.prod.website-files.com/629971ac1b962e42fe087309/678f40bc5e5f6017d67c1c4a_Screenshot%202025-01-21%20013415%20(2).avif',
-    url: '#',
-    description: 'Biologiya va ijodiy soha kesishmasida ishlayotgan odamlar uchun katalog. Men dasturlash qismini amalga oshirdim.',
-    role: 'Dasturlash',
-  },
-  {
-    id: 6,
-    title: 'Far Outtt',
-    subtitle: 'Ijodiy Agentlik',
-    img: 'https://cdn.prod.website-files.com/629971ac1b962e42fe087309/66328b3ec17dbf0637401161_far%20outtt.avif',
-    url: '#',
-    description: "Kosmik mavzudagi bu saytni men ham dizayn qildim, ham kod yozdim. Agentlik yirik brendlar bilan ishlagan.",
-    role: 'Dizayn & Dasturlash',
-  },
-  {
-    id: 7,
-    title: 'Brooklyn Editions',
-    subtitle: 'Brooklyn Bosma Studiyasi',
-    img: 'https://cdn.prod.website-files.com/629971ac1b962e42fe087309/655827ff6ec4f39efa88616e_64a38eb537ef9a11b09688e2_Screenshot%202023-07-03%20231356.avif',
-    url: '#',
-    description: "Mening eng maqtanch loyiham. Sahifalar va animatsiyalardagi tafsilotlarga e'tibor meni yaxshiroq dasturchi qildi. Awwwards mukofoti laureati!",
-    role: 'Dasturlash',
-  },
-  {
-    id: 8,
-    title: 'Cadence',
-    subtitle: 'RPM Healthcare Startup',
-    img: 'https://cdn.prod.website-files.com/629971ac1b962e42fe087309/63b59ab504d70c893676dd19_Screenshot%202023-01-04%20102623.avif',
-    url: '#',
-    description: 'Bu loyiha meni chindan ham kod yozishni o\'rgatdi. Figma dizaynlarini ishlab chiqdim, barcha animatsiyalarni men qo\'shdim.',
-    role: 'Dasturlash & Animatsiya',
->>>>>>> 145018d1504ac465b9531da4e6ff8513dc49d795
   },
 ];
 
