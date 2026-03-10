@@ -57,7 +57,7 @@ export default function Footer() {
               Email
             </p>
             <a
-              href="mailto:muhammadrizodev@gmail.com"
+              href="mailto:adilovdev1@gmail.com"
               style={{
                 fontFamily: 'var(--font-dm)',
                 fontSize: '14px',
@@ -68,7 +68,7 @@ export default function Footer() {
               onMouseEnter={e => (e.currentTarget.style.color = 'var(--blue-light)')}
               onMouseLeave={e => (e.currentTarget.style.color = 'var(--cream)')}
             >
-              muhammadrizodev@gmail.com
+              adilovdev1@gmail.com
             </a>
           </div>
           <div>
@@ -83,7 +83,7 @@ export default function Footer() {
               Instagram
             </p>
             <a
-              href="https://www.instagram.com/"
+              href="https://www.instagram.com/rizo_adilov"
               target="_blank"
               rel="noopener noreferrer"
               style={{
@@ -96,7 +96,7 @@ export default function Footer() {
               onMouseEnter={e => (e.currentTarget.style.color = 'var(--blue-light)')}
               onMouseLeave={e => (e.currentTarget.style.color = 'var(--cream)')}
             >
-              @muhammad.rizo
+              @rizo_adilov
             </a>
           </div>
         </div>
