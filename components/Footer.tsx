@@ -39,7 +39,7 @@ export default function Footer() {
             maxWidth: '280px',
             lineHeight: 1.7,
           }}>
-            Muhammad Rizo Web Dev — Toshkent, O'zbekiston asosidagi
+            Muhammad Rizo — Sirdaryo, O'zbekiston asosidagi
             freelance veb dizayner va dasturchi.
           </p>
         </div>
@@ -68,7 +68,7 @@ export default function Footer() {
               onMouseEnter={e => (e.currentTarget.style.color = 'var(--blue-light)')}
               onMouseLeave={e => (e.currentTarget.style.color = 'var(--cream)')}
             >
-              muhammadrizodev@gmail.com
+              adilovdev1@gmail.com
             </a>
           </div>
           <div>
@@ -83,7 +83,7 @@ export default function Footer() {
               Instagram
             </p>
             <a
-              href="https://www.instagram.com/"
+              href="https://www.instagram.com/rizo_adilov"
               target="_blank"
               rel="noopener noreferrer"
               style={{
@@ -96,7 +96,7 @@ export default function Footer() {
               onMouseEnter={e => (e.currentTarget.style.color = 'var(--blue-light)')}
               onMouseLeave={e => (e.currentTarget.style.color = 'var(--cream)')}
             >
-              @muhammad.rizo
+              @rizo_adilov
             </a>
           </div>
         </div>
@@ -116,7 +116,7 @@ export default function Footer() {
           fontSize: '12px',
           color: '#555',
         }}>
-          Muhammad Rizo Web Dev © 2025 Barcha huquqlar himoyalangan.
+          Muhammad Rizo © 2026 Barcha huquqlar himoyalangan.
         </p>
         <p style={{
           fontFamily: 'var(--font-dm)',

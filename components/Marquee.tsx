@@ -5,10 +5,10 @@ interface MarqueeProps {
 }
 
 const items = [
-  'Next.js', 'Web Dev', 'Web Animatsiyalar', 'Custom Integratsiyalar', 'SEO',
-  'Next.js', 'Web Dev', 'Web Animatsiyalar', 'Custom Integratsiyalar', 'SEO',
-  'Next.js', 'Web Dev', 'Web Animatsiyalar', 'Custom Integratsiyalar', 'SEO',
-  'Next.js', 'Web Dev', 'Web Animatsiyalar', 'Custom Integratsiyalar', 'SEO',
+  'Next.js', 'Web Dev', 'Web Animatsiyalar', "Three.js", 'Custom Integratsiyalar', 'SEO', "React",
+  'Next.js', 'Web Dev', 'Web Animatsiyalar', "Three.js", 'Custom Integratsiyalar', 'SEO', "React",
+  'Next.js', 'Web Dev', 'Web Animatsiyalar', "Three.js", 'Custom Integratsiyalar', 'SEO', "React",
+  'Next.js', 'Web Dev', 'Web Animatsiyalar', "Three.js", 'Custom Integratsiyalar', 'SEO', "React",
 ]
 
 export default function Marquee({ reverse = false }: MarqueeProps) {
@@ -40,7 +40,7 @@ export default function Marquee({ reverse = false }: MarqueeProps) {
               whiteSpace: 'nowrap',
             }}
           >
-            {item} •
+            • {item} •
           </span>
         ))}
         {items.map((item, i) => (
