@@ -44,7 +44,11 @@ export default function Navbar() {
 
       <div style={{ display: 'flex', alignItems: 'center', gap: '32px' }}>
         <a
+<<<<<<< HEAD
           href="https://t.me/rizo_adilov"
+=======
+          href="https://www.instagram.com/rizo_adilov"
+>>>>>>> 145018d1504ac465b9531da4e6ff8513dc49d795
           target="_blank"
           rel="noopener noreferrer"
           className="nav-link"

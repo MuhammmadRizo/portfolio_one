@@ -12,7 +12,7 @@ Alex Beige veb-sayti asosida yaratilgan shaxsiy portfolio sayt. Next.js 14, Type
 
 ```bash
 # Loyihani yuklab oling va papkaga kiring
-cd muhammad-rizo-web
+cd portfolio_one
 
 # Paketlarni o'rnating
 npm install
@@ -33,7 +33,7 @@ npm start
 ## 📁 Fayl Tuzilishi
 
 ```
-muhammad-rizo-web/
+portfolio_one/
 ├── app/
 │   ├── globals.css       # Global CSS + animatsiyalar
 │   ├── layout.tsx        # Root layout

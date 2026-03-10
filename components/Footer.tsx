@@ -57,7 +57,7 @@ export default function Footer() {
               Email
             </p>
             <a
-              href="mailto:muhammadrizodev@gmail.com"
+              href="mailto:adilovdev1@gmail.com"
               style={{
                 fontFamily: 'var(--font-dm)',
                 fontSize: '14px',
