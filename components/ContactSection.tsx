@@ -96,10 +96,10 @@ export default function ContactSection() {
           <p style={{ marginTop: '16px', fontFamily: 'var(--font-dm)', fontSize: '14px', color: '#666' }}>
             Yoki to'g'ridan-to'g'ri:{' '}
             <a
-              href="mailto:muhammadrizodev@gmail.com"
+              href="mailto:adilovdev1@gmail.com"
               style={{ color: 'var(--blue-light)', textDecoration: 'none' }}
             >
-              muhammadrizodev@gmail.com
+              adilovdev1@gmail.com
             </a>
           </p>
         </div>
