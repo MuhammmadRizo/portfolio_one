@@ -94,7 +94,7 @@ export default function TeamSection() {
             fontSize: "15px",
           }}
         >
-          Men bu yerda ko'p turli hil insonman 😎.
+          Men bu yerda ko'p turli hil insonman.
         </p>
       </div>
 
