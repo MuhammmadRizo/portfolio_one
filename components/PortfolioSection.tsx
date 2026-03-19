@@ -20,8 +20,8 @@ const projects = [
     id: 2,
     title: "Avtomabilingizning ehtiyot qismlari",
     subtitle: "Har qanday turdagi avtomabil uchun ehtiyot qismlar mavjud. Ferma ishlarida ishlovchi avtomabillardan tortib zamonaviy avtomabillargacha",
-    img: CarShowCase,
-    url: "https://cars-showcase-bice1.vercel.app/",
+    img: AvtoElektr,
+    url: "https://avto-elektrika.vercel.app/",
     description:
       "Zamonaviy qiyofani uyg'unlashtirgan bu loyiha men uchun juda qiziqarli bo'ldi.",
     role: "Texnika & Avtomabil",
@@ -40,8 +40,8 @@ const projects = [
     id: 4,
     title: "Princeton LGBTQIA+",
     subtitle: "Tarixiy Ko'rgazma Sayti",
-    img: AvtoElektr,
-    url: "https://avto-elektrika.vercel.app/",
+    img: CarShowCase,
+    url: "#",
     description:
       "Yuzlab intervyu va og'zaki tarixlarni o'z ichiga olgan onlayn ko'rgazma. Bunday loyihalar veb-saytlarning qudratiga ishontiradigan.",
     role: "Dizayn & Dasturlash",
