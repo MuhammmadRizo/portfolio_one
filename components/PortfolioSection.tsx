@@ -2,43 +2,44 @@
 
 import { useState, useEffect, useRef } from "react";
 import Image from "next/image";
+import CarShowCase from "../assets/cars_showcase.png"
 
 const projects = [
   {
     id: 1,
-    title: "Couple 3 Films",
-    subtitle: "NYC Ishlab Chiqarish Kompaniyasi",
-    img: "https://t4.ftcdn.net/jpg/17/82/48/85/360_F_1782488506_T9hCdQo6IHJGQ6tJPme2B6pFwqBKmRzS.jpg",
-    url: "#",
+    title: "Avtomabil ijaraga olish uchun",
+    subtitle: "Har qanday turdagi avtomabilni ijaraga olish.",
+    img: CarShowCase,
+    url: "https://cars-showcase-bice1.vercel.app/",
     description:
-      "Animatsiyali intro va scroll-based loyiha interaksiyalari bilan bu loyihada men yagona dizayner va dasturchi bo'ldim.",
-    role: "Dizayn & Dasturlash",
+      "Scroll-based loyiha interaksiyalari va loading mavjudligi, albatta API'lar bilan ishlangani bilan ajralib turuvchi loyiha.",
+    role: "Texnika & Avtomabil",
   },
   {
     id: 2,
-    title: "Mountain Crust Pizza",
-    subtitle: "To'ylar uchun Pitsa Kompaniyasi",
-    img: "https://t4.ftcdn.net/jpg/17/82/48/85/360_F_1782488506_T9hCdQo6IHJGQ6tJPme2B6pFwqBKmRzS.jpg",
+    title: "Avtomabilingizning ehtiyot qismlari",
+    subtitle: "Har qanday turdagi avtomabil uchun ehtiyot qismlar mavjud. Ferma ishlarida ishlovchi avtomabillardan tortib zamonaviy avtomabillargacha",
+    img: CarShowCase,
     url: "#",
     description:
-      "Vintage uslub va zamonaviy qiyofani uyg'unlashtirgan bu loyiha men uchun juda qiziqarli bo'ldi.",
-    role: "Dizayn & Dasturlash",
+      "Zamonaviy qiyofani uyg'unlashtirgan bu loyiha men uchun juda qiziqarli bo'ldi.",
+    role: "Texnika & Avtomabil",
   },
   {
     id: 3,
-    title: "Juniper VC",
-    subtitle: "Bioindustrial Venchur Kapital",
-    img: "https://t4.ftcdn.net/jpg/17/82/48/85/360_F_1782488506_T9hCdQo6IHJGQ6tJPme2B6pFwqBKmRzS.jpg",
+    title: "Qurilish Materiallari Do'koni",
+    subtitle: "Qurilishingiz uchun foydali do'kon. Va men buni sizga tavfsiya bera olaman.",
+    img: CarShowCase,
     url: "#",
     description:
-      "Bu zamonaviy VC kompaniyasi uchun chiroyli va interaktiv saytni ishlab chiqdim va animatsiyalashtirdim.",
-    role: "Dasturlash & Animatsiya",
+      "Bu qurilish materiallariga oid kompaniya uchun chiroyli va interaktiv saytni ishlab chiqdim va animatsiyalashtirdim.",
+    role: "Texnika & Arxitektura",
   },
   {
     id: 4,
     title: "Princeton LGBTQIA+",
     subtitle: "Tarixiy Ko'rgazma Sayti",
-    img: "https://t4.ftcdn.net/jpg/17/82/48/85/360_F_1782488506_T9hCdQo6IHJGQ6tJPme2B6pFwqBKmRzS.jpg",
+    img: CarShowCase,
     url: "#",
     description:
       "Yuzlab intervyu va og'zaki tarixlarni o'z ichiga olgan onlayn ko'rgazma. Bunday loyihalar veb-saytlarning qudratiga ishontiradigan.",
@@ -48,7 +49,7 @@ const projects = [
     id: 5,
     title: "Biocreative Index",
     subtitle: "Ijodkorlar × Biologiya",
-    img: "https://t4.ftcdn.net/jpg/17/82/48/85/360_F_1782488506_T9hCdQo6IHJGQ6tJPme2B6pFwqBKmRzS.jpg",
+    img: CarShowCase,
     url: "#",
     description:
       "Biologiya va ijodiy soha kesishmasida ishlayotgan odamlar uchun katalog. Men dasturlash qismini amalga oshirdim.",
@@ -58,7 +59,7 @@ const projects = [
     id: 6,
     title: "Far Outtt",
     subtitle: "Ijodiy Agentlik",
-    img: "https://t4.ftcdn.net/jpg/17/82/48/85/360_F_1782488506_T9hCdQo6IHJGQ6tJPme2B6pFwqBKmRzS.jpg",
+    img: CarShowCase,
     url: "#",
     description:
       "Kosmik mavzudagi bu saytni men ham dizayn qildim, ham kod yozdim. Agentlik yirik brendlar bilan ishlagan.",
@@ -68,7 +69,7 @@ const projects = [
     id: 7,
     title: "Brooklyn Editions",
     subtitle: "Brooklyn Bosma Studiyasi",
-    img: "https://t4.ftcdn.net/jpg/17/82/48/85/360_F_1782488506_T9hCdQo6IHJGQ6tJPme2B6pFwqBKmRzS.jpg",
+    img: CarShowCase,
     url: "#",
     description:
       "Mening eng maqtanch loyiham. Sahifalar va animatsiyalardagi tafsilotlarga e'tibor meni yaxshiroq dasturchi qildi. Awwwards mukofoti laureati!",
@@ -78,7 +79,7 @@ const projects = [
     id: 8,
     title: "Cadence",
     subtitle: "RPM Healthcare Startup",
-    img: "https://t4.ftcdn.net/jpg/17/82/48/85/360_F_1782488506_T9hCdQo6IHJGQ6tJPme2B6pFwqBKmRzS.jpg",
+    img: CarShowCase,
     url: "#",
     description:
       "Bu loyiha meni chindan ham kod yozishni o'rgatdi. Figma dizaynlarini ishlab chiqdim, barcha animatsiyalarni men qo'shdim.",
@@ -190,7 +191,7 @@ export default function PortfolioSection() {
                 overflow: "hidden",
               }}
             >
-              <img
+              <Image
                 src={project.img}
                 alt={project.title}
                 style={{
@@ -316,7 +317,7 @@ export default function PortfolioSection() {
             onClick={(e) => e.stopPropagation()}
           >
             <div style={{ position: "relative", paddingTop: "55%" }}>
-              <img
+              <Image
                 src={activeProject.img}
                 alt={activeProject.title}
                 style={{
