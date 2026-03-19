@@ -3,6 +3,7 @@
 import { useState, useEffect, useRef } from "react";
 import Image from "next/image";
 import CarShowCase from "../assets/cars_showcase.png"
+import AvtoElektr from "../assets/avto_elektrika.png"
 
 const projects = [
   {
@@ -20,7 +21,7 @@ const projects = [
     title: "Avtomabilingizning ehtiyot qismlari",
     subtitle: "Har qanday turdagi avtomabil uchun ehtiyot qismlar mavjud. Ferma ishlarida ishlovchi avtomabillardan tortib zamonaviy avtomabillargacha",
     img: CarShowCase,
-    url: "#",
+    url: "https://cars-showcase-bice1.vercel.app/",
     description:
       "Zamonaviy qiyofani uyg'unlashtirgan bu loyiha men uchun juda qiziqarli bo'ldi.",
     role: "Texnika & Avtomabil",
@@ -39,8 +40,8 @@ const projects = [
     id: 4,
     title: "Princeton LGBTQIA+",
     subtitle: "Tarixiy Ko'rgazma Sayti",
-    img: CarShowCase,
-    url: "#",
+    img: AvtoElektr,
+    url: "https://avto-elektrika.vercel.app/",
     description:
       "Yuzlab intervyu va og'zaki tarixlarni o'z ichiga olgan onlayn ko'rgazma. Bunday loyihalar veb-saytlarning qudratiga ishontiradigan.",
     role: "Dizayn & Dasturlash",
