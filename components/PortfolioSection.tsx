@@ -34,8 +34,8 @@ const projects = [
     img: Suv,
     url: "https://sendo-shop.vercel.app/",
     description:
-      "Bu qurilish materiallariga oid kompaniya uchun chiroyli va interaktiv saytni ishlab chiqdim va animatsiyalashtirdim.",
-    role: "Texnika & Arxitektura",
+      "Bu suvingizni yanada toza va ichimlik suvi darajasini oshirish uchun bo'lgan filtrlarga oid kompaniya uchun chiroyli va interaktiv saytni ishlab chiqdim.",
+    role: "Texnika & UY Jixozlari",
   },
   {
     id: 4,
