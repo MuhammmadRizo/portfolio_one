@@ -4,6 +4,7 @@ import { useState, useEffect, useRef } from "react";
 import Image from "next/image";
 import CarShowCase from "../assets/cars_showcase.png"
 import AvtoElektr from "../assets/avto_elektrika.png"
+import Suv from "../assets/sendo_shop.png"
 
 const projects = [
   {
@@ -28,9 +29,9 @@ const projects = [
   },
   {
     id: 3,
-    title: "Qurilish Materiallari Do'koni",
-    subtitle: "Qurilishingiz uchun foydali do'kon. Va men buni sizga tavfsiya bera olaman.",
-    img: CarShowCase,
+    title: "Suvni filtrlash mahsulotlari do'koni",
+    subtitle: "Suvni filtrlash mahsulotlari do'koni uchun sayt",
+    img: Suv,
     url: "#",
     description:
       "Bu qurilish materiallariga oid kompaniya uchun chiroyli va interaktiv saytni ishlab chiqdim va animatsiyalashtirdim.",
