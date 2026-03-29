@@ -32,7 +32,7 @@ const projects = [
     title: "Suvni filtrlash mahsulotlari do'koni",
     subtitle: "Suvni filtrlash mahsulotlari do'koni uchun sayt",
     img: Suv,
-    url: "#",
+    url: "https://sendo-shop.vercel.app/",
     description:
       "Bu qurilish materiallariga oid kompaniya uchun chiroyli va interaktiv saytni ishlab chiqdim va animatsiyalashtirdim.",
     role: "Texnika & Arxitektura",
