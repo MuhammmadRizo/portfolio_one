@@ -5,6 +5,7 @@ import Image from "next/image";
 import CarShowCase from "../assets/cars_showcase.png"
 import AvtoElektr from "../assets/avto_elektrika.png"
 import Suv from "../assets/sendo_shop.png"
+import Arenda from "../assets/arenda_kv.png"
 
 const projects = [
   {
@@ -39,12 +40,12 @@ const projects = [
   },
   {
     id: 4,
-    title: "Princeton LGBTQIA+",
-    subtitle: "Tarixiy Ko'rgazma Sayti",
-    img: CarShowCase,
+    title: "Turar joylarni ijaraga olish.",
+    subtitle: "Har qanday turdagi turar joylarni ijaraga olish. Uylar, kvartiralar, ofislar va boshqalar.",
+    img: Arenda,
     url: "#",
     description:
-      "Yuzlab intervyu va og'zaki tarixlarni o'z ichiga olgan onlayn ko'rgazma. Bunday loyihalar veb-saytlarning qudratiga ishontiradigan.",
+      "Bu loyiha turar joylarni ijaraga olish uchun mo'ljallangan. Figma dizaynlarini ishlab chiqdim, barcha animatsiyalarni men qo'shdim. Hozirda faqat statik sahifa, lekin kelajakda to'liq ishlaydigan saytga aylantirishni rejalashtirmoqdaman.",
     role: "Dizayn & Dasturlash",
   },
   {
