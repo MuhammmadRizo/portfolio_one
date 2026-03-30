@@ -40,16 +40,6 @@ const projects = [
   },
   {
     id: 4,
-    title: "Turar joylarni ijaraga olish.",
-    subtitle: "Har qanday turdagi turar joylarni ijaraga olish. Uylar, kvartiralar, ofislar va boshqalar.",
-    img: Arenda,
-    url: "#",
-    description:
-      "Bu loyiha turar joylarni ijaraga olish uchun mo'ljallangan. Figma dizaynlarini ishlab chiqdim, barcha animatsiyalarni men qo'shdim. Hozirda faqat statik sahifa, lekin kelajakda to'liq ishlaydigan saytga aylantirishni rejalashtirmoqdaman.",
-    role: "Dizayn & Dasturlash",
-  },
-  {
-    id: 5,
     title: "Biocreative Index",
     subtitle: "Ijodkorlar × Biologiya",
     img: CarShowCase,
@@ -57,6 +47,16 @@ const projects = [
     description:
       "Biologiya va ijodiy soha kesishmasida ishlayotgan odamlar uchun katalog. Men dasturlash qismini amalga oshirdim.",
     role: "Dasturlash",
+  },
+  {
+    id: 5,
+    title: "Turar joylarni ijaraga olish.",
+    subtitle: "Har qanday turdagi turar joylarni ijaraga olish. Uylar, kvartiralar, ofislar va boshqalar.",
+    img: Arenda,
+    url: "https://arenda-kv.vercel.app/",
+    description:
+      "Bu loyiha turar joylarni ijaraga olish uchun mo'ljallangan. Figma dizaynlarini ishlab chiqdim, barcha animatsiyalarni men qo'shdim. Hozirda faqat statik sahifa, lekin kelajakda to'liq ishlaydigan saytga aylantirishni rejalashtirmoqdaman.",
+    role: "Dizayn & Dasturlash",
   },
   {
     id: 6,
