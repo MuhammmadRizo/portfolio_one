@@ -44,7 +44,7 @@ export default function Navbar() {
 
       <div style={{ display: 'flex', alignItems: 'center', gap: '32px' }}>
         <a
-          href="https://t.me/rizo_adilov"
+          href="https://t.me/adilov_dev"
           target="_blank"
           rel="noopener noreferrer"
           className="nav-link"
@@ -56,7 +56,7 @@ export default function Navbar() {
             letterSpacing: '0.04em',
           }}
         >
-          @rizo_adilov
+          @adilov_dev
         </a>
         <a
           href="#contact"

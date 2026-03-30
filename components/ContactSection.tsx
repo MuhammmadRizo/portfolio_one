@@ -3,6 +3,7 @@
 import { useState, useRef, useEffect } from "react";
 
 export default function ContactSection() {
+  const WEBHOOK_URL = process.env.NEXT_PUBLIC_SHEETS_WEBHOOK!;
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -26,10 +27,29 @@ export default function ContactSection() {
     return () => observer.disconnect();
   }, []);
 
-  const handleSubmit = (e: React.MouseEvent) => {
+  const handleSubmit = async (e: React.MouseEvent) => {
     e.preventDefault();
     if (!formData.name || !formData.email || !formData.message) return;
-    setSubmitted(true);
+
+    try {
+      const form = new FormData();
+      form.append("name", formData.name);
+      form.append("email", formData.email);
+      form.append("service", formData.service);
+      form.append("budget", formData.budget);
+      form.append("message", formData.message);
+
+      await fetch(WEBHOOK_URL, {
+        method: "POST",
+        mode: "no-cors",
+        body: form,
+      });
+
+      setSubmitted(true);
+    } catch (err) {
+      console.error("Xatolik:", err);
+      alert("Yuborishda xatolik. Qayta urinib ko'ring.");
+    }
   };
 
   return (
@@ -129,10 +149,10 @@ export default function ContactSection() {
           >
             Yoki to'g'ridan-to'g'ri:{" "}
             <a
-              href="mailto:adilovdev1@gmail.com"
+              href="https://t.me/rizo_adilov"
               style={{ color: "var(--blue-light)", textDecoration: "none" }}
             >
-              adilovdev1@gmail.com
+              @rizo_adilov
             </a>
           </p>
         </div>
@@ -292,7 +312,8 @@ export default function ContactSection() {
                 lineHeight: 1.7,
               }}
             >
-              Agar yuborgan xabaringizga javob kelmasa iltimos qaytadan to'g'ridan-to'g'ri bog'lanishingizni so'rayman!!
+              Agar yuborgan xabaringizga javob kelmasa iltimos qaytadan
+              to'g'ridan-to'g'ri bog'lanishingizni so'rayman!!
             </p>
 
             <button
