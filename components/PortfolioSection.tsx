@@ -2,10 +2,10 @@
 
 import { useState, useEffect, useRef } from "react";
 import Image from "next/image";
-import CarShowCase from "../assets/cars_showcase.png"
-import AvtoElektr from "../assets/avto_elektrika.png"
-import Suv from "../assets/sendo_shop.png"
-import Arenda from "../assets/arenda_kv.png"
+import CarShowCase from "../assets/cars_showcase.png";
+import AvtoElektr from "../assets/avto_elektrika.png";
+import Suv from "../assets/sendo_shop.png";
+import Arenda from "../assets/arenda_kv.png";
 
 const projects = [
   {
@@ -21,7 +21,8 @@ const projects = [
   {
     id: 2,
     title: "Avtomabilingizning ehtiyot qismlari",
-    subtitle: "Har qanday turdagi avtomabil uchun ehtiyot qismlar mavjud. Ferma ishlarida ishlovchi avtomabillardan tortib zamonaviy avtomabillargacha",
+    subtitle:
+      "Har qanday turdagi avtomabil uchun ehtiyot qismlar mavjud. Ferma ishlarida ishlovchi avtomabillardan tortib zamonaviy avtomabillargacha",
     img: AvtoElektr,
     url: "https://avto-elektrika.vercel.app/",
     description:
@@ -40,53 +41,14 @@ const projects = [
   },
   {
     id: 4,
-    title: "Biocreative Index",
-    subtitle: "Ijodkorlar × Biologiya",
-    img: CarShowCase,
-    url: "#",
-    description:
-      "Biologiya va ijodiy soha kesishmasida ishlayotgan odamlar uchun katalog. Men dasturlash qismini amalga oshirdim.",
-    role: "Dasturlash",
-  },
-  {
-    id: 5,
     title: "Turar joylarni ijaraga olish.",
-    subtitle: "Har qanday turdagi turar joylarni ijaraga olish. Uylar, kvartiralar, ofislar va boshqalar.",
+    subtitle:
+      "Har qanday turdagi turar joylarni ijaraga olish. Uylar, kvartiralar, ofislar va boshqalar.",
     img: Arenda,
     url: "https://arenda-kv.vercel.app/",
     description:
       "Bu loyiha turar joylarni ijaraga olish uchun mo'ljallangan. Figma dizaynlarini ishlab chiqdim, barcha animatsiyalarni men qo'shdim. Hozirda faqat statik sahifa, lekin kelajakda to'liq ishlaydigan saytga aylantirishni rejalashtirmoqdaman.",
     role: "Dizayn & Dasturlash",
-  },
-  {
-    id: 6,
-    title: "Far Outtt",
-    subtitle: "Ijodiy Agentlik",
-    img: CarShowCase,
-    url: "#",
-    description:
-      "Kosmik mavzudagi bu saytni men ham dizayn qildim, ham kod yozdim. Agentlik yirik brendlar bilan ishlagan.",
-    role: "Dizayn & Dasturlash",
-  },
-  {
-    id: 7,
-    title: "Brooklyn Editions",
-    subtitle: "Brooklyn Bosma Studiyasi",
-    img: CarShowCase,
-    url: "#",
-    description:
-      "Mening eng maqtanch loyiham. Sahifalar va animatsiyalardagi tafsilotlarga e'tibor meni yaxshiroq dasturchi qildi. Awwwards mukofoti laureati!",
-    role: "Dasturlash",
-  },
-  {
-    id: 8,
-    title: "Cadence",
-    subtitle: "RPM Healthcare Startup",
-    img: CarShowCase,
-    url: "#",
-    description:
-      "Bu loyiha meni chindan ham kod yozishni o'rgatdi. Figma dizaynlarini ishlab chiqdim, barcha animatsiyalarni men qo'shdim.",
-    role: "Dasturlash & Animatsiya",
   },
 ];
 
