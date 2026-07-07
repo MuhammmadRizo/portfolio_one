@@ -64,6 +64,48 @@ function LockScreen({ onUnlock }: { onUnlock: () => void }) {
   );
 }
 
+function FleeingButton() {
+  const [position, setPosition] = useState({ top: 0, left: 0 });
+  const [isMoved, setIsMoved] = useState(false);
+
+  const handleHover = () => {
+    if (typeof window !== "undefined") {
+      const randomTop = Math.random() * (window.innerHeight - 100); 
+      const randomLeft = Math.random() * (window.innerWidth - 200);
+      setPosition({ top: Math.max(20, randomTop), left: Math.max(20, randomLeft) });
+      setIsMoved(true);
+    }
+  };
+
+  return (
+    <button
+      onMouseEnter={handleHover}
+      style={{
+        display: "inline-block",
+        padding: "12px 24px",
+        borderRadius: "30px",
+        fontSize: "1.1rem",
+        fontFamily: "'Playfair Display', serif",
+        textTransform: "none",
+        letterSpacing: "normal",
+        background: "rgba(255,100,100,0.1)",
+        border: "1px solid rgba(255,100,100,0.3)",
+        color: "#ffb4a0",
+        position: isMoved ? "fixed" : "relative",
+        top: isMoved ? `${position.top}px` : "auto",
+        left: isMoved ? `${position.left}px` : "auto",
+        zIndex: 9999,
+        cursor: "default",
+        marginTop: isMoved ? "0" : "16px",
+        transition: isMoved ? "top 0.3s ease, left 0.3s ease" : "background 0.3s ease"
+      }}
+      onClick={(e) => e.preventDefault()}
+    >
+      🥀 Kerakmas 🥀
+    </button>
+  );
+}
+
 export default function App() {
   const [unlocked, setUnlocked] = useState(false);
 
@@ -84,7 +126,8 @@ export default function App() {
           <br />
           <br /> Maxliyom, yagonam mendan xafa bo'lmaysiz. Gul bo'lmasa ham dil
           izhorim bor. Blokdan qachon chiqaman endi hahah. Chiqaring
-          meni 09 Maxliyom. Dostday bo'ling lekin ismni to'liq ayting "Muhammad Rizo"<br />
+          meni 09 Maxliyom. Dostday bo'ling lekin ismni to'liq ayting "Muhammad Rizo" 
+          yoki oldingide shirin so'z "go'zalm" den chaqrng menga rosa yoqardi meni yagonam 🦦❤️<br />
           <br />
           <br /> Sizni yaxshi ko'ruvchi Muhammad Rizo ❤️‍🔥💗.
         </h1>
@@ -92,10 +135,11 @@ export default function App() {
 
       <footer style={styles.footer}>
         <span>✦ Har bir so'z — chin dildan ✦</span>
-        <div style={{ marginTop: "20px" }}>
+        <div style={{ marginTop: "20px", display: "flex", justifyContent: "center", gap: "20px", flexWrap: "wrap", alignItems: "center" }}>
           <Link href="/flowers" style={styles.flowerLink}>
             🌸 Gullarni ko'rish 🌸
           </Link>
+          <FleeingButton />
         </div>
       </footer>
 

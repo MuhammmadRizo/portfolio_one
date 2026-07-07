@@ -1,5 +1,6 @@
 {
-  "/page": "app/page.js",
+  "/icon/[[...__metadata_id__]]/route": "app/icon/[[...__metadata_id__]]/route.js",
   "/senga/page": "app/senga/page.js",
+  "/page": "app/page.js",
   "/flowers/page": "app/flowers/page.js"
 }
