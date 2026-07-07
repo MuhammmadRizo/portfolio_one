@@ -1,4 +1,3 @@
-import Cursor from '@/components/Cursor'
 import Navbar from '@/components/Navbar'
 import HeroSection from '@/components/HeroSection'
 import Marquee from '@/components/Marquee'
@@ -12,7 +11,6 @@ export default function Home() {
   return (
     <>
     <link rel="icon" type="image/png" href="../public/favicon.png" sizes="96x96" />
-      <Cursor />
       <Navbar />
       <main>
         <HeroSection />

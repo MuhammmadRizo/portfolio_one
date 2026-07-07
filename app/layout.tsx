@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
-
+import Cursor from "@/components/Cursor";
 export const metadata: Metadata = {
   title:
     "Interactive Web Developer ~ Muhammad Rizo, Freelancer ⋆｡ ﾟ☁︎｡ ⋆｡ ﾟ☾ ﾟ｡ ⋆",
@@ -25,7 +25,10 @@ export default function RootLayout({
         sizes="96x96"
       />
       <GoogleAnalytics />
-      <body>{children}</body>
+      <body>
+        <Cursor />
+        {children}
+      </body>
     </html>
   );
 }

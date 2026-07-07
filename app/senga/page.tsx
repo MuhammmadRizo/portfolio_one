@@ -99,7 +99,8 @@ function FleeingButton() {
         marginTop: isMoved ? "0" : "16px",
         transition: isMoved ? "top 0.3s ease, left 0.3s ease" : "background 0.3s ease"
       }}
-      onClick={(e) => e.preventDefault()}
+      onTouchStart={(e) => { e.preventDefault(); handleHover(); }}
+      onClick={(e) => { e.preventDefault(); handleHover(); }}
     >
       🥀 Kerakmas 🥀
     </button>
