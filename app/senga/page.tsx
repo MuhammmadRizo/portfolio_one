@@ -1,7 +1,8 @@
 "use client";
 import { useState } from "react";
+import Link from "next/link";
 
-const PASSWORD = "4yilvertalyot";
+const PASSWORD = "2727";
 
 function LockScreen({ onUnlock }: { onUnlock: () => void }) {
   const [input, setInput] = useState("");
@@ -26,7 +27,7 @@ function LockScreen({ onUnlock }: { onUnlock: () => void }) {
         <div style={styles.lockIcon}>🔒</div>
         <h2 style={styles.lockTitle}>Maxfiy sahifa</h2>
         <p style={styles.lockSub}>
-          Kirish uchun parolni kiriting vertalyotcha.
+          Bir firklarngchi JONIM &lt;3 iyiy.
         </p>
         <input
           type="password"
@@ -73,37 +74,29 @@ export default function App() {
       <header style={styles.header}>
         <div style={styles.rose}>🌹</div>
         <h1 style={styles.mainTitle}>Senga, faqat senga Maxliyom </h1>
-        <p style={styles.subtitle}>Faqatgina senga yagonam.</p>
+        <p style={styles.subtitle}>Faqatgina senga Yagonam.</p>
       </header>
 
       <div style={styles.lettersContainer}>
         <h1>
           {" "}
-          Parolni topganizga qoyil qoldim 😎 <br />
+          Fikrlashga gap yo parolni topdiz. <br />
           <br />
           <br /> Maxliyom, yagonam mendan xafa bo'lmaysiz. Gul bo'lmasa ham dil
-          izhorim va usha qo'lingizdagi oqqushim bor unchalik o'xshamagan bo'lsa
-          ham. Qoyil maktabni ham bitirib oldingiz. Tabriklayman, endi
-          universitet. Men sizga bergan vadalarim esimda hali, gacha ular esdan
-          chiqmaydi. Albatta. Sizni tabriklayman bitirganingiz bilan.
-          O'qishingizga, ishlaringizga omad tilayman 🎓✨. Sizni ko'rganimdan
-          hursandman. Siz meni ko'rdingizmi yo'qmi bilmadim. Eng asosiysi
-          hursand ekanligimni aytmoqchi edim. Hali yana ko'rishamiz albatta.
-          Mendan zerikmaysiz degan umiddaman. To'g'ri tushuning, hayollaringizni
-          bilmadim, lekin ko'chadagi bekorga qo'l ushlashib yurganlar yaqin
-          orada ajraladi hahaha 🤭 Shuncha to'siqlari bo'lsa ham yengib
-          o'ttik, o'zi to'siq bormidi yo'qmi bilmadim. Lekin baribir taslim
-          bo'lmadik. Meni ko'zimga ochganingiz uchun rahmat. Siz bilan
-          tanishganimdan hursandman. Mendan xafa bo'lmaysiz, bir-rovga keldim,
-          sizni ko'rdimmi kettim. Blokdan qachon chiqaman endi hahah. Chiqaring
-          meni 09 Maxliyom. <br />
+          izhorim bor. Blokdan qachon chiqaman endi hahah. Chiqaring
+          meni 09 Maxliyom. Dostday bo'ling lekin ismni to'liq ayting "Muhammad Rizo"<br />
           <br />
-          <br /> Sizni yaxshi ko'ruvchi Muhammad Rizo ❤️‍🩹❤️‍🔥💗.
+          <br /> Sizni yaxshi ko'ruvchi Muhammad Rizo ❤️‍🔥💗.
         </h1>
       </div>
 
       <footer style={styles.footer}>
         <span>✦ Har bir so'z — chin dildan ✦</span>
+        <div style={{ marginTop: "20px" }}>
+          <Link href="/flowers" style={styles.flowerLink}>
+            🌸 Gullarni ko'rish 🌸
+          </Link>
+        </div>
       </footer>
 
       <style>{`
@@ -282,5 +275,20 @@ const styles: Record<string, React.CSSProperties> = {
     color: "rgba(245,221,213,0.25)",
     fontSize: "0.8rem",
     letterSpacing: "0.2em",
+  },
+  flowerLink: {
+    display: "inline-block",
+    marginTop: "16px",
+    padding: "12px 24px",
+    background: "rgba(255,255,255,0.05)",
+    border: "1px solid rgba(255,190,170,0.3)",
+    borderRadius: "30px",
+    color: "#f5e0d8",
+    textDecoration: "none",
+    fontSize: "1.1rem",
+    fontFamily: "'Playfair Display', serif",
+    transition: "background 0.3s ease",
+    textTransform: "none",
+    letterSpacing: "normal"
   },
 };
