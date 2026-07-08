@@ -2,7 +2,7 @@
 import { useState } from "react";
 import Link from "next/link";
 
-const PASSWORD = "2727";
+const PASSWORD = "27271111";
 
 function LockScreen({ onUnlock }: { onUnlock: () => void }) {
   const [input, setInput] = useState("");
