@@ -6,6 +6,7 @@ import CarShowCase from "../assets/cars_showcase.png";
 import AvtoElektr from "../assets/avto_elektrika.png";
 import Suv from "../assets/sendo_shop.png";
 import Arenda from "../assets/arenda_kv.png";
+import Aurelin from "../assets/aurelin_site.png";
 
 const projects = [
   {
@@ -48,6 +49,17 @@ const projects = [
     url: "https://arenda-kv.vercel.app/",
     description:
       "Bu loyiha turar joylarni ijaraga olish uchun mo'ljallangan. Figma dizaynlarini ishlab chiqdim, barcha animatsiyalarni men qo'shdim. Hozirda faqat statik sahifa, lekin kelajakda to'liq ishlaydigan saytga aylantirishni rejalashtirmoqdaman.",
+    role: "Dizayn & Dasturlash",
+  },
+  {
+    id: 5,
+    title: "Kiyim-kechaklar buyurtma berish.",
+    subtitle:
+      "Siz saytda mavjud bo'lgan kiyim-kechaklar yoki oyoq kiyimlarni buyurtma orqali xitoydan olib keltirishingiz mumkin",
+    img: Aurelin,
+    url: "https://www.aurelin.uz/",
+    description:
+      "Bu loyiha kiyimlar sotib olish yoki buyurtma berish uchun mo'ljallangan. Figma dizaynlarini ishlab chiqdim, barcha animatsiyalarni qo'shdim.",
     role: "Dizayn & Dasturlash",
   },
 ];
